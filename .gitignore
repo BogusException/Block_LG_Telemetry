@@ -1,0 +1,48 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# Logs & runtime
+*.log
+logs/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Claude Code responses (never commit content)
+responses/*
+!responses/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/

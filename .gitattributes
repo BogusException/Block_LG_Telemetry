@@ -1,0 +1,16 @@
+# Normalise all text files to LF on checkout
+* text=auto eol=lf
+
+# Explicitly binary — never diff or merge
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.gz   binary
+*.tar  binary
+*.db   binary
+*.sqlite binary
+*.pyc  binary
